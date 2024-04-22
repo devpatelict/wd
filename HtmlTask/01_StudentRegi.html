@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+   <style>
+  
+     body {
+            background-color: white;
+            color: black;
+     }
+    fieldset {
+            border: dashed black;
+            background-color: aquamarine;
+        }
+  
+   </style>
+</head>
+<body>
+    <h4 align="center"><a href="">Student Registration Form Using Table in HTML</a></h4>
+    <fieldset>
+        <form action="">
+            <table style="width: 100%;">
+                <tr>
+                    <th><label for="">First Name</label></th>
+                    <td><input type="text" placeholder="Enter Your Name "></td>
+                    <td>(Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <th><label for="">Last Name</label></th>
+                    <td><input type="text" placeholder="Enter Your Last Name"></td>
+                    <td>(Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <th><label for="">Email ID</label></th>
+                    <td><input type="email" placeholder="Enter The Email "></td>
+
+                </tr>
+                <tr>
+                    <th><label for="">Gender</label></th>
+                    <td><input type="radio"  name="gender"> Male</td>
+                    <td><input type="radio"  name="gender"> Female</td>
+                </tr>
+                <tr>
+                    <th><label for="">Date of birth(DOB)</label></th>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <th><label for="">Address</label></th>
+                    <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <th><label for="">City</label></th>
+                    <td><input type="text" placeholder="Enter Your City Name"></td>
+                    <td>(Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <th><label for="">Pin Code</label></th>
+                    <td><input type="text" placeholder="Enter Your Pin Code"></td>
+                    <td>(Max 6 Numbers Allowed)</td>
+                </tr>
+                <tr>
+                    <th><label for="">State</label></th>
+                    <td><input type="text" placeholder="Enter Your State Name"></td>
+                    <td>(Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <th><label for="">Country</label></th>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <th><label for="">Hobbies</label></th>
+                    <td><input type="checkbox">Drawing</td>
+                    <td><input type="checkbox">Singing</td>
+                    <td><input type="checkbox">Dancing</td>
+                    <td><input type="checkbox">Cricket</td><br>
+                    <td><input type="checkbox">Other</td>
+        
+                </tr>
+                <tr>
+                    <th rowspan="6"><label for="">Qualification</label></th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Qualification">High School(10th)</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Qualification">Higher SChool(12th)</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="Qualification">Graduation(Bachelors)</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" >Post Graduation(Maters)</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Phd</td>
+                </tr>
+                
+                <tr>
+                    <th rowspan="8"><label for="">Courses Applied For</label></th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">BCA</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">B.com</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">B.Sc</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">BA</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">MCA</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">M.Sc</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">MA</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="Submit"></td>
+                    <td><input type="Reset"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</body>
+</html>

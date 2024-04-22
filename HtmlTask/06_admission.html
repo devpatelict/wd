@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    sup{
+        color: red;
+    }
+    .fname,.lname,.mname{
+        font-size: xx-small;
+    }
+    input{
+        border: 1px solid rgb(14, 13, 13);
+        border-radius: 2px;
+    }
+    
+</style>
+<body>
+    <h1>Admissions Form</h1>
+    <h4>Enter Your admission information below</h4>
+    <hr>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="">Name <sup>*</sup></label></td><br>
+    
+            </tr>
+            <tr>
+                <td class="fname"><input type="text" ><br>First Name</td>
+                <td class="mname"><input type="text" ><br>Middle Name</td>
+                <td class="lname"><input type="text" ><br>Last Name</td>
+            </tr>
+            <tr>
+                <td><label for="">Birth Date <sup>*</sup></label></td>
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                    <option value="">&nbsp;</option>
+                    <option value="">Jan</option>
+                    <option value="">Feb</option>
+                    <option value="">Mar</option>
+                    <option value="">April</option>
+                    </select>
+                    
+            
+                
+                    <select>
+                        <option value=""></option>
+                        <option value="">Mon</option>
+                        <option value="">Tue</option>
+                        <option value="">Wed</option>
+                        <option value="">Thur</option>
+                    </select>
+                    <select>
+                        <option value=""></option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <br>
+            <tr>
+                <td colspan="3"><label for="">Gender <sup>*</sup></label></td>
+                
+            </tr>
+            <tr>
+                <td><input type="radio">Male</td>
+            </tr>
+            <tr>
+                <td><input type="radio">Female</td>
+            </tr>
+            <tr>
+                <td><input type="radio">Other</td>
+            </tr>
+            <tr>
+                <td colspan="3"><label for="">Are You a Hispanic or Latino? <sup>*</sup></label></td>
+
+            </tr>
+            <tr>
+                <td><input type="radio">No</td>
+                
+            </tr>
+            <tr>
+                <td><input type="radio">Yes</td>
+            
+            </tr>
+            <tr>
+                <td><input type="radio">Decline to Answer</td>
+            
+            </tr>
+        </table>
+        
+
+    </form>
+</body>
+</html>

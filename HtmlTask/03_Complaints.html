@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaints</title>
+    <style>
+        .new1{
+            border: 3px solid black;
+            border-radius: 3px;
+        }
+        .first,.second{
+            font-size: x-small;
+        }
+        sup{
+            color: red;
+        }
+        input{
+                border-radius: 4px;
+                border: 1px solid black;
+                height: 25px;
+        }
+        .button1{
+
+            background-color: red;
+            color: aliceblue;
+            border: 0px;
+            border-radius: 1px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <h1>Complaints</h1>
+    </center>
+    <h4 align="center">Help us improve our service</h4>
+    <hr class="new1">
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="">Full name <sup>*</sup></label></td>
+                <td class="first"><input type="text"><br >First</td>
+                <td class="second"><input type="text"><br>Last</td>
+            </tr>
+            <tr>
+                <td><label for="">Email <sup>*</sup></label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="">Phone</label></td>
+                <td><input type="tel"></td>
+            </tr>
+            <tr>
+                <td rowspan="2"><label for="">Where did we go wrong? <sup>*</sup></label></td>
+                <td colspan="2"><textarea name="" id="" cols="50" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td align="center"><input type="Submit" class="button1"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
